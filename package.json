@@ -1,0 +1,14 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "study nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Yasin",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

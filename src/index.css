@@ -1,0 +1,312 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    /* Mencegah scroll horizontal */
+}
+
+#Home {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url("/asset/background.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    z-index: 10;
+    background-color: #1e1e1e;
+}
+
+.nav-welcome {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nav-kelas {
+    /* font-bold text-5xl text-center py-20 */
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    padding: 40px;
+}
+
+/* content */
+/* flex justify-between relative */
+#content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* ig */
+
+#Ig {
+    width: 180px;
+    margin-left: 35px;
+    height: 230px;
+    position: relative;
+    border-radius: 15px;
+}
+
+/* #BoxClassIg {} */
+
+.Ig {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgIg {
+    width: auto;
+    height: 55px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.nextIg {
+    /* background-color: #1e1e1e; */
+    width: auto;
+    height: 25px;
+    position: top;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.fontIg {
+    /* text-white text-lg pr-3 mt-3 absolute bottom-10 */
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 2rem;
+    font-size: 22px;
+    text-align: start;
+    position: absolute;
+    bottom: 30px;
+}
+
+.viewIg {
+    /* flex py-2 text-xs */
+    display: flex;
+    text-align: start;
+    color: white;
+    margin-left: 15px;
+    font-size: x-small;
+    opacity: 60px;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* ig end */
+
+/* tiktok */
+#tiktok {
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+}
+
+#BoxClassTiktok {
+    width: 160px;
+    margin-left: 20px;
+    height: 100px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.tiktok {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgTiktok {
+    width: auto;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.nextTiktok {
+    width: auto;
+    height: 20px;
+    position: top;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.subtiktok {
+    /* text-white text-base font-semibold pr-0 mt-5 */
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: start;
+    position: absolute;
+    bottom: 1px;
+}
+
+/* tiktok end */
+
+/* menfess */
+#BoxTextAnonim {
+    margin-top: 10px;
+    width: 160px;
+    margin-left: 20px;
+    height: 120px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.img-menfess {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgPaper {
+    width: auto;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.nextMenfess {
+    width: auto;
+    height: 20px;
+    position: top;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.textMenfess {
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: start;
+    position: absolute;
+    bottom: 1px;
+}
+
+/* menfees chat */
+#textMenfess {
+    display: none;
+    border-radius: 25px;
+    padding: 10%;
+    margin: 20px;
+    height: auto;
+    width: 90%;
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin-top: -430px;
+}
+
+.close {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close h4 {
+    margin: -15px 0 50px 65px;
+    justify-content: center;
+    border: 2px;
+    padding: 6px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #bfbfbf;
+    text-align: center;
+    box-shadow: 0px 4px 5px 1px rgba(235, 235, 235, 1);
+
+}
+
+#closeMenfess {
+    font-size: 35px;
+    margin-top: -35px;
+    margin-right: -20px;
+}
+
+#input {
+    border: 2px;
+    width: 300px;
+    padding: 8px;
+    margin: 0 0 10px -14px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.buttonSubmit {
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: -14px;
+}
+
+#iconv {
+    width: 15px;
+    height: auto;
+}
+
+/* menfess chat end */
+
+/* menfess end */
+
+/* send img */
+#Gallery {
+    /* text-white opacity-60 text-base font-semibold mb-4 mx-[10%] mt-10 lg:text-center lg:text-3xl lg:mb-8 */
+    color: white;
+    opacity: 60;
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    height: 100px;
+}
+
+#inputImg {
+    display: none;
+}
+
+/* Membuat label terlihat seperti tombol */
+.inputImg {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    cursor: pointer;
+}
+
+#SendImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 16px;
+    width: 150px;
+    height: 50px;
+}
+
+.iconSend {
+    width: auto;
+    height: 20px;
+}
+
+/* send img end */
