@@ -1,14 +1,15 @@
-html {
-    scroll-behavior: smooth;
-}
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    background-color: #1e1e1e;
     overflow-x: hidden;
     /* Mencegah scroll horizontal */
 }
@@ -21,8 +22,8 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
-    z-index: 10;
     background-color: #1e1e1e;
+    z-index: 1;
 }
 
 .nav-welcome {
@@ -52,7 +53,7 @@ body {
 
 #Ig {
     width: 180px;
-    margin-left: 35px;
+    margin-left: 30px;
     height: 230px;
     position: relative;
     border-radius: 15px;
@@ -87,7 +88,7 @@ body {
     font-weight: bold;
     margin-left: 15px;
     margin-top: 2rem;
-    font-size: 22px;
+    font-size: 20px;
     text-align: start;
     position: absolute;
     bottom: 30px;
@@ -115,8 +116,8 @@ body {
 }
 
 #BoxClassTiktok {
-    width: 160px;
-    margin-left: 20px;
+    width: 140px;
+    margin-left: 30px;
     height: 100px;
     position: relative;
     border-radius: 15px;
@@ -158,10 +159,10 @@ body {
 /* menfess */
 #BoxTextAnonim {
     margin-top: 10px;
-    width: 160px;
-    margin-left: 20px;
+    width: 140px;
+    margin-left: 30px;
     height: 120px;
-    position: relative;
+    position: absolute;
     border-radius: 15px;
 }
 
@@ -208,6 +209,8 @@ body {
     background: rgba(255, 255, 255, 0.14);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     margin-top: -430px;
+    position: fixed;
+    z-index: 10;
 }
 
 .close {
@@ -262,7 +265,7 @@ body {
 #Gallery {
     /* text-white opacity-60 text-base font-semibold mb-4 mx-[10%] mt-10 lg:text-center lg:text-3xl lg:mb-8 */
     color: white;
-    opacity: 60;
+    opacity: 60px;
     font-weight: bold;
     font-size: x-large;
     display: flex;
@@ -274,8 +277,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: wheat;
     height: 100px;
+    margin: 25px;
 }
 
 #inputImg {
@@ -292,6 +295,8 @@ body {
     background-position: center;
     background-size: 20px 20px;
     cursor: pointer;
+    background-color: #b0b0b0;
+    color: white;
 }
 
 #SendImg {
@@ -310,3 +315,158 @@ body {
 }
 
 /* send img end */
+
+/* struktur */
+.struktur {
+    display: flex;
+    flex-direction: row;
+}
+
+.struktur h3 {
+    margin: 5px;
+
+}
+
+.strukturKelas {
+    display: flex;
+    justify-content: center;
+    /* background-color: #9CA3AF; */
+    position: relative;
+    z-index: -1;
+    padding-bottom: 100px;
+}
+
+.imgKelas {
+    height: 600px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* struktur end */
+
+/* footer */
+#Footer {
+    z-index: -1;
+    position: relative;
+    background-color: #1e1e1e;
+}
+
+.footer {
+    /* mx-auto w-full max-w-screen-xl px-8 py-6 lg:py-8 */
+    background-image: linear-gradient(to right, rgba(218, 9, 229, 0.39) 5%, rgba(218, 9, 229, 0.149) 55%, rgba(0, 0, 0, 0));
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1280px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    /* border-top: none; */
+}
+
+.penutup {
+    /* md:flex md:justify-between */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logoFooter {
+    margin-bottom: 1.5rem;
+}
+
+.linkFooter {
+    display: flex;
+    align-items: center;
+}
+
+.LogoA2 {
+    height: 4rem;
+    width: 4rem;
+    right: 0.5rem;
+    position: relative;
+    border-radius: 9999px;
+    filter: brightness(200%);
+}
+
+.spanFooter {
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    white-space: nowrap;
+    color: white;
+}
+
+.footerLink {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.footerCredit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nama {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.created {
+    /* text-gray-400 dark:text-gray-400 font-medium */
+    font-weight: 500;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: -32px;
+}
+
+.hoverUl {
+    color: #9CA3AF;
+    text-decoration: none;
+}
+
+.hoverUl:hover {
+    text-decoration: underline;
+}
+
+.Igyasin {
+    margin-bottom: 0.5rem;
+}
+
+.foot {
+    /* my-2 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 */
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-color: #E5E7EB;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divfoot {
+    /* sm:flex sm:items-center sm:justify-between */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.credit {
+    /* flex mt-4 justify-center sm:mt-0 */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.textCredit {
+    /* text-[0.7rem] text-white opacity-70 */
+    color: white;
+    opacity: 70px;
+}
+
+/* footer end */
