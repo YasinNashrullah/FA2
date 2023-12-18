@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -426,3 +427,380 @@
     <script src="index.js" type="module"></script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./asset/LogoA21.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="google-site-verification" content="WHLWQb7_hoW3fRhZ2XmOLPpfN2EubRtyQmTEq6JmpdA" /> -->
+    <title>XI F.A2</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div className="flex justify-between relative top-3 lg:hidden">
+      <nav class="navbar bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Offcanvas navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#menfess">Menfess</a>
+                </li>
+              </ul>
+              <iframe
+                src="https://my.spline.design/untitled-1708734a2624046b33d47defe1ae4c07/"
+                frameborder="0"
+                width="100%"
+                height="250px"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- content -->
+
+    <div class="text-white" id="Home">
+      <div class="text-center text-white">
+        <div class="nav-welcome">WELCOME</div>
+      </div>
+
+      <div class="lg-hidden">
+        <div class="nav-kelas">XI F.A2</div>
+
+        <div class="" id="content">
+          <div class="bg-primary" id="Ig">
+            <div class="text-center" id="BoxClassIg">
+              <a href="https://www.instagram.com/fantastic.abnormal/">
+                <div class="Ig">
+                  <img src="./asset/Instagram.svg" alt="" class="imgIg" />
+                  <img src="./asset/next.png" alt="" class="nextIg" />
+                </div>
+                <h1 class="fontIg">Class Instagram</h1>
+                <div class="viewIg">View More</div>
+              </a>
+            </div>
+          </div>
+          <div class="" id="tiktok">
+            <div class="bg-primary" id="BoxClassTiktok">
+              <a href="https://www.tiktok.com/@fa2.muhi">
+                <div class="tiktok">
+                  <img src="./asset/link.png" alt="" class="imgTiktok" />
+                  <img src="./asset/next.png" alt="" class="nextTiktok" />
+                </div>
+                <h1 class="subtiktok">Tiktok</h1>
+              </a>
+            </div>
+
+            <div id="menfess">
+              <div onClick="openMenfess()" id="openMenfess">
+                <div class="bg-primary" id="BoxTextAnonim">
+                  <div class="img-menfess">
+                    <img src="./asset/paper-plane.png" alt="" class="imgPaper" />
+                    <img src="./asset/next.png" alt="" class="nextMenfess" />
+                  </div>
+                  <h1 class="textMenfess">Text<br />Anonim</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- menfess -->
+
+      <div>
+        <div class="" id="textMenfess">
+          <i class="fa-solid fa-quote-left" id="quote"></i>
+          <div class="close">
+            <h4
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-offset="25"
+              id="judul9"
+            >
+              Menfess
+            </h4>
+            <div
+              onClick="closeTextMenfess()"
+              id="closeMenfess"
+              class="btn-close"
+            ></div>
+          </div>
+
+          <form
+            action="https://formsubmit.co/fatwosfa2@gmail.com"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="From:"
+              placeholder="From :"
+              required
+              id="input"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-offset="25"
+            />
+            <input
+              type="text"
+              name="To:"
+              required
+              id="input"
+              placeholder="To :"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-offset="25"
+            />
+            <textarea
+              placeholder="Pesan :"
+              type="text"
+              name="Pesan:"
+              required
+              id="input"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-offset="25"
+            ></textarea>
+            <button
+              class="buttonSubmit"
+              type="submit"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-offset="25"
+            >
+              <span class="text" id="submit">Submit</span>
+              <img src="./asset/paper-plane.png" id="iconv" />
+            </button>
+
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+          </form>
+
+          <i class="fa-solid fa-quote-right" id="quoteright"></i>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <!-- menfess end -->
+
+      <!-- gallery -->
+      <div id="Gallery">Class Gallery</div>
+
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./asset/background.jpg" class="d-block w-100" alt="" />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./asset/LogoA21.jpg" class="d-block w-100" alt="" />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./asset/LogoA21.jpg" class="d-block w-100" alt="" />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./asset/LogoA21.jpg" class="d-block w-100" alt="" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- <div class="send">
+        <input
+          type="file"
+          class="sendImg"
+          id="inputImg"
+        />
+        <label for="inputImg" class="inputImg" id="uploadLabel" onchange="uploadImage()">
+          <span class="textSend">Send</span>
+          <img src="/asset/upload.png" alt="Icon" class="iconSend" />
+        </label>
+      </div> -->
+
+      <form action="https://formsubmit.co/fatwosfa2@gmail.com" method="POST">
+        <input
+          type="file"
+          name="image:"
+          placeholder="Image:"
+          required
+          id="input"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="25"
+        />
+        <button
+          class="buttonSubmit"
+          type="submit"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-offset="25"
+        >
+          <span class="text" id="submit">Submit</span>
+          <img src="./asset/paper-plane.png" id="iconv" />
+        </button>
+
+      </form>
+
+      <!-- gallery end -->
+      <!-- struktur dan jadwal -->
+      <div>
+        <div class="struktur">
+          <a href=""><h3>Struktur</h3></a>
+          <h3>&</h3>
+          <a href=""><h3>jadwal</h3></a>
+        </div>
+        <div class="strukturKelas">
+          <img src="./asset/strukturkelas.jpg" alt="" class="imgKelas" />
+        </div>
+      </div>
+    </div>
+    <!-- struktur dan jadwal end -->
+
+    <!-- content end -->
+
+    <!-- footer -->
+    <footer class="" id="Footer">
+      <div class="footer">
+        <div class="penutup">
+          <div class="logoFooter">
+            <a href="#" class="linkFooter">
+              <img src="./asset/LogoA21.jpg" alt="" class="LogoA2" />
+              <span class="spanFooter"></span>
+            </a>
+          </div>
+          <div class="footerLink">
+            <div class="footerCredit">
+              <h2 class="nama">CREATED BY</h2>
+              <ul class="created">
+                <li class="Igyasin">
+                  <a
+                    href="https://www.instagram.com/yasin_nashrullah/"
+                    class="hoverUl"
+                  >
+                    Yasin
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/dafyall/?hl=id"
+                    class="hoverUl"
+                  >
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footerCredit">
+              <h2 class="nama">Follow us</h2>
+              <ul class="created">
+                <li class="Igyasin">
+                  <a
+                    href="https://www.instagram.com/fantastic.abnormal/"
+                    class="hoverUl"
+                  >
+                    Instagram
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.tiktok.com/@fa2.muhi" class="hoverUl">
+                    Tiktok
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="foot" />
+        <div class="divfoot">
+          <div class="credit">
+            <p class="textCredit">
+              © 2023 Kelas XI F.A2 | Di Kelola Oleh Yasin
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
+>>>>>>> f4bd6ae1a16f6f5a742038218561f7ce77dcac95
